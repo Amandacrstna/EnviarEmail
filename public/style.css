@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2? family = Playfair + Display: ital @ 1 & display = swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: "Montserrat";
+    justify-content: center;
+    background-size: cover;
+    background-image: url(/img/back.jpg);
+    background-position: center;
+  }
+
+#name, #email, #subject, #message{
+  width: 50vh;
+  cursor: pointer;
+}
+
